@@ -1,0 +1,64 @@
+{
+  "_note": "One entry per business unit. 'register' is a path relative to this file. Leave 'register' empty for a BU that has no register yet - the app then shows a 'register update required' report instead of generating assessments. Values on a register's Settings sheet (CompanyName, FormTitle, ERP1-3) override company/erp here.",
+  "business_units": [
+    {
+      "id": "cement",
+      "name": "Dangote Cement - Okpella Plant",
+      "description": "Cement plant risk register (OKPELLA Master Workbook v8)",
+      "register": "registers/OKPELLA_Master_Workbook_v8.xlsx",
+      "company": "OKPELLA CEMENT LIMITED, OKPELLA",
+      "register_owner": "Okpella HSE",
+      "erp": [
+        "Stop whatever you are doing and call the following number:",
+        "Safety Officers: 08056857344, 08152711025, 07085713676, 08056862447, 08056848737",
+        "HSE Manager: 09053739601   Security Manager: 08110540298",
+        "Extensions: HSE: 1539, 1540, 1165   Fire: 1539   Security: 1468"
+      ]
+    },
+    {
+      "id": "refinery",
+      "name": "Dangote Petroleum Refinery",
+      "description": "Refinery risk register (draft v1 - pending HSE validation)",
+      "register": "registers/DANGOTE_REFINERY_Master_Workbook_v1.xlsx",
+      "company": "DANGOTE PETROLEUM REFINERY",
+      "register_owner": "Refinery HSE",
+      "erp": []
+    },
+    {
+      "id": "fertiliser",
+      "name": "Dangote Fertiliser",
+      "description": "Ammonia-urea complex risk register (draft v1 - pending HSE validation)",
+      "register": "registers/DANGOTE_FERTILISER_Master_Workbook_v1.xlsx",
+      "company": "DANGOTE FERTILISER LIMITED",
+      "register_owner": "Fertiliser HSE",
+      "erp": []
+    },
+    {
+      "id": "sugar",
+      "name": "Dangote Sugar Refinery",
+      "description": "No risk register uploaded yet",
+      "register": "",
+      "company": "DANGOTE SUGAR REFINERY",
+      "register_owner": "Sugar HSE",
+      "erp": []
+    },
+    {
+      "id": "nascon",
+      "name": "NASCON Allied Industries",
+      "description": "No risk register uploaded yet",
+      "register": "",
+      "company": "NASCON ALLIED INDUSTRIES",
+      "register_owner": "NASCON HSE",
+      "erp": []
+    },
+    {
+      "id": "packaging",
+      "name": "Dangote Packaging",
+      "description": "No risk register uploaded yet",
+      "register": "",
+      "company": "DANGOTE PACKAGING",
+      "register_owner": "Packaging HSE",
+      "erp": []
+    }
+  ]
+}
