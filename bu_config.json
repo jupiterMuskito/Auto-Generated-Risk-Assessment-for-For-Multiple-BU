@@ -1,0 +1,21 @@
+{
+  "_note": "One entry per business unit. 'register' = built-in default workbook path (relative to this file). 'default_source' = the BU's own source module in ra/defaults/, used to recreate the built-in default if the workbook is missing. A BU whose file is missing and has no default_source shows the 'register update required' report until an admin uploads a register on the Register admin tab. Values on a register's Settings sheet (CompanyName, FormTitle, ERP1-4) override company/erp here.",
+  "business_units": [
+    {"id": "cement", "name": "Dangote Cement - Okpella Plant", "register": "registers/OKPELLA_Master_Workbook_v8.xlsx", "default_source": "",
+     "company": "OKPELLA CEMENT LIMITED, OKPELLA", "register_owner": "Okpella HSE",
+     "erp": ["Stop whatever you are doing and call the following number:",
+             "Safety Officers: 08056857344, 08152711025, 07085713676, 08056862447, 08056848737",
+             "HSE Manager: 09053739601   Security Manager: 08110540298",
+             "Extensions: HSE: 1539, 1540, 1165   Fire: 1539   Security: 1468"]},
+    {"id": "refinery", "name": "Dangote Petroleum Refinery", "register": "registers/DANGOTE_REFINERY_Master_Workbook_v1.xlsx", "default_source": "refinery",
+     "company": "DANGOTE PETROLEUM REFINERY", "register_owner": "Refinery HSE", "erp": []},
+    {"id": "fertiliser", "name": "Dangote Fertiliser", "register": "registers/DANGOTE_FERTILISER_Master_Workbook_v1.xlsx", "default_source": "fertiliser",
+     "company": "DANGOTE FERTILISER LIMITED", "register_owner": "Fertiliser HSE", "erp": []},
+    {"id": "sugar", "name": "Dangote Sugar Refinery", "register": "registers/DANGOTE_SUGAR_Register.xlsx", "default_source": "",
+     "company": "DANGOTE SUGAR REFINERY", "register_owner": "Sugar HSE", "erp": []},
+    {"id": "nascon", "name": "NASCON Allied Industries", "register": "registers/NASCON_Register.xlsx", "default_source": "",
+     "company": "NASCON ALLIED INDUSTRIES", "register_owner": "NASCON HSE", "erp": []},
+    {"id": "packaging", "name": "Dangote Packaging", "register": "registers/DANGOTE_PACKAGING_Register.xlsx", "default_source": "",
+     "company": "DANGOTE PACKAGING", "register_owner": "Packaging HSE", "erp": []}
+  ]
+}
